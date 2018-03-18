@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F359C92203CC34800647C1B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7F359C91203CC34700647C1B /* Settings.bundle */; };
+		7F359C94203CD2D700647C1B /* settingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F359C93203CD2D700647C1B /* settingsTableViewController.swift */; };
+		7F359C96203CD5F400647C1B /* changeSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F359C95203CD5F400647C1B /* changeSettingsViewController.swift */; };
+		7F570E19203BEA1D00F3911C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F570E18203BEA1D00F3911C /* AppDelegate.swift */; };
+		7F570E1E203BEA1D00F3911C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F570E1C203BEA1D00F3911C /* Main.storyboard */; };
+		7F570E20203BEA1D00F3911C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F570E1F203BEA1D00F3911C /* Assets.xcassets */; };
+		7F570E23203BEA1D00F3911C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F570E21203BEA1D00F3911C /* LaunchScreen.storyboard */; };
+		7F570E2E203BEA1D00F3911C /* HelgesonJerdon_Hw6_settingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F570E2D203BEA1D00F3911C /* HelgesonJerdon_Hw6_settingsTests.swift */; };
+		7F570E39203BEA1D00F3911C /* HelgesonJerdon_Hw6_settingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F570E38203BEA1D00F3911C /* HelgesonJerdon_Hw6_settingsUITests.swift */; };
+		7F570E47203BF4D900F3911C /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F570E46203BF4D900F3911C /* settingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F570E2A203BEA1D00F3911C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F570E0D203BEA1D00F3911C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F570E14203BEA1D00F3911C;
+			remoteInfo = HelgesonJerdon_Hw6_settings;
+		};
+		7F570E35203BEA1D00F3911C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F570E0D203BEA1D00F3911C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F570E14203BEA1D00F3911C;
+			remoteInfo = HelgesonJerdon_Hw6_settings;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F359C91203CC34700647C1B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		7F359C93203CD2D700647C1B /* settingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsTableViewController.swift; sourceTree = "<group>"; };
+		7F359C95203CD5F400647C1B /* changeSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = changeSettingsViewController.swift; sourceTree = "<group>"; };
+		7F570E15203BEA1D00F3911C /* HelgesonJerdon_Hw6_settings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelgesonJerdon_Hw6_settings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F570E18203BEA1D00F3911C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F570E1D203BEA1D00F3911C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F570E1F203BEA1D00F3911C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F570E22203BEA1D00F3911C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F570E24203BEA1D00F3911C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F570E29203BEA1D00F3911C /* HelgesonJerdon_Hw6_settingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelgesonJerdon_Hw6_settingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F570E2D203BEA1D00F3911C /* HelgesonJerdon_Hw6_settingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelgesonJerdon_Hw6_settingsTests.swift; sourceTree = "<group>"; };
+		7F570E2F203BEA1D00F3911C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F570E34203BEA1D00F3911C /* HelgesonJerdon_Hw6_settingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelgesonJerdon_Hw6_settingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F570E38203BEA1D00F3911C /* HelgesonJerdon_Hw6_settingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelgesonJerdon_Hw6_settingsUITests.swift; sourceTree = "<group>"; };
+		7F570E3A203BEA1D00F3911C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F570E46203BF4D900F3911C /* settingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F570E12203BEA1D00F3911C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F570E26203BEA1D00F3911C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F570E31203BEA1D00F3911C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F570E0C203BEA1D00F3911C = {
+			isa = PBXGroup;
+			children = (
+				7F570E17203BEA1D00F3911C /* HelgesonJerdon_Hw6_settings */,
+				7F570E2C203BEA1D00F3911C /* HelgesonJerdon_Hw6_settingsTests */,
+				7F570E37203BEA1D00F3911C /* HelgesonJerdon_Hw6_settingsUITests */,
+				7F570E16203BEA1D00F3911C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F570E16203BEA1D00F3911C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F570E15203BEA1D00F3911C /* HelgesonJerdon_Hw6_settings.app */,
+				7F570E29203BEA1D00F3911C /* HelgesonJerdon_Hw6_settingsTests.xctest */,
+				7F570E34203BEA1D00F3911C /* HelgesonJerdon_Hw6_settingsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F570E17203BEA1D00F3911C /* HelgesonJerdon_Hw6_settings */ = {
+			isa = PBXGroup;
+			children = (
+				7F570E18203BEA1D00F3911C /* AppDelegate.swift */,
+				7F570E1C203BEA1D00F3911C /* Main.storyboard */,
+				7F359C91203CC34700647C1B /* Settings.bundle */,
+				7F570E46203BF4D900F3911C /* settingsViewController.swift */,
+				7F359C93203CD2D700647C1B /* settingsTableViewController.swift */,
+				7F570E1F203BEA1D00F3911C /* Assets.xcassets */,
+				7F570E21203BEA1D00F3911C /* LaunchScreen.storyboard */,
+				7F570E24203BEA1D00F3911C /* Info.plist */,
+				7F359C95203CD5F400647C1B /* changeSettingsViewController.swift */,
+			);
+			path = HelgesonJerdon_Hw6_settings;
+			sourceTree = "<group>";
+		};
+		7F570E2C203BEA1D00F3911C /* HelgesonJerdon_Hw6_settingsTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F570E2D203BEA1D00F3911C /* HelgesonJerdon_Hw6_settingsTests.swift */,
+				7F570E2F203BEA1D00F3911C /* Info.plist */,
+			);
+			path = HelgesonJerdon_Hw6_settingsTests;
+			sourceTree = "<group>";
+		};
+		7F570E37203BEA1D00F3911C /* HelgesonJerdon_Hw6_settingsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F570E38203BEA1D00F3911C /* HelgesonJerdon_Hw6_settingsUITests.swift */,
+				7F570E3A203BEA1D00F3911C /* Info.plist */,
+			);
+			path = HelgesonJerdon_Hw6_settingsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F570E14203BEA1D00F3911C /* HelgesonJerdon_Hw6_settings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F570E3D203BEA1D00F3911C /* Build configuration list for PBXNativeTarget "HelgesonJerdon_Hw6_settings" */;
+			buildPhases = (
+				7F570E11203BEA1D00F3911C /* Sources */,
+				7F570E12203BEA1D00F3911C /* Frameworks */,
+				7F570E13203BEA1D00F3911C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelgesonJerdon_Hw6_settings;
+			productName = HelgesonJerdon_Hw6_settings;
+			productReference = 7F570E15203BEA1D00F3911C /* HelgesonJerdon_Hw6_settings.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F570E28203BEA1D00F3911C /* HelgesonJerdon_Hw6_settingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F570E40203BEA1D00F3911C /* Build configuration list for PBXNativeTarget "HelgesonJerdon_Hw6_settingsTests" */;
+			buildPhases = (
+				7F570E25203BEA1D00F3911C /* Sources */,
+				7F570E26203BEA1D00F3911C /* Frameworks */,
+				7F570E27203BEA1D00F3911C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F570E2B203BEA1D00F3911C /* PBXTargetDependency */,
+			);
+			name = HelgesonJerdon_Hw6_settingsTests;
+			productName = HelgesonJerdon_Hw6_settingsTests;
+			productReference = 7F570E29203BEA1D00F3911C /* HelgesonJerdon_Hw6_settingsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F570E33203BEA1D00F3911C /* HelgesonJerdon_Hw6_settingsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F570E43203BEA1D00F3911C /* Build configuration list for PBXNativeTarget "HelgesonJerdon_Hw6_settingsUITests" */;
+			buildPhases = (
+				7F570E30203BEA1D00F3911C /* Sources */,
+				7F570E31203BEA1D00F3911C /* Frameworks */,
+				7F570E32203BEA1D00F3911C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F570E36203BEA1D00F3911C /* PBXTargetDependency */,
+			);
+			name = HelgesonJerdon_Hw6_settingsUITests;
+			productName = HelgesonJerdon_Hw6_settingsUITests;
+			productReference = 7F570E34203BEA1D00F3911C /* HelgesonJerdon_Hw6_settingsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F570E0D203BEA1D00F3911C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Jerdon Helgeson";
+				TargetAttributes = {
+					7F570E14203BEA1D00F3911C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					7F570E28203BEA1D00F3911C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7F570E14203BEA1D00F3911C;
+					};
+					7F570E33203BEA1D00F3911C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7F570E14203BEA1D00F3911C;
+					};
+				};
+			};
+			buildConfigurationList = 7F570E10203BEA1D00F3911C /* Build configuration list for PBXProject "HelgesonJerdon_Hw6_settings" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F570E0C203BEA1D00F3911C;
+			productRefGroup = 7F570E16203BEA1D00F3911C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F570E14203BEA1D00F3911C /* HelgesonJerdon_Hw6_settings */,
+				7F570E28203BEA1D00F3911C /* HelgesonJerdon_Hw6_settingsTests */,
+				7F570E33203BEA1D00F3911C /* HelgesonJerdon_Hw6_settingsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F570E13203BEA1D00F3911C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F359C92203CC34800647C1B /* Settings.bundle in Resources */,
+				7F570E23203BEA1D00F3911C /* LaunchScreen.storyboard in Resources */,
+				7F570E20203BEA1D00F3911C /* Assets.xcassets in Resources */,
+				7F570E1E203BEA1D00F3911C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F570E27203BEA1D00F3911C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F570E32203BEA1D00F3911C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F570E11203BEA1D00F3911C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F359C94203CD2D700647C1B /* settingsTableViewController.swift in Sources */,
+				7F570E19203BEA1D00F3911C /* AppDelegate.swift in Sources */,
+				7F570E47203BF4D900F3911C /* settingsViewController.swift in Sources */,
+				7F359C96203CD5F400647C1B /* changeSettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F570E25203BEA1D00F3911C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F570E2E203BEA1D00F3911C /* HelgesonJerdon_Hw6_settingsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F570E30203BEA1D00F3911C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F570E39203BEA1D00F3911C /* HelgesonJerdon_Hw6_settingsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F570E2B203BEA1D00F3911C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F570E14203BEA1D00F3911C /* HelgesonJerdon_Hw6_settings */;
+			targetProxy = 7F570E2A203BEA1D00F3911C /* PBXContainerItemProxy */;
+		};
+		7F570E36203BEA1D00F3911C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F570E14203BEA1D00F3911C /* HelgesonJerdon_Hw6_settings */;
+			targetProxy = 7F570E35203BEA1D00F3911C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F570E1C203BEA1D00F3911C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F570E1D203BEA1D00F3911C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F570E21203BEA1D00F3911C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F570E22203BEA1D00F3911C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F570E3B203BEA1D00F3911C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F570E3C203BEA1D00F3911C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F570E3E203BEA1D00F3911C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZYDG2YZQM;
+				INFOPLIST_FILE = HelgesonJerdon_Hw6_settings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "whatDoesThisDo.HelgesonJerdon-Hw6-settings";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F570E3F203BEA1D00F3911C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZYDG2YZQM;
+				INFOPLIST_FILE = HelgesonJerdon_Hw6_settings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "whatDoesThisDo.HelgesonJerdon-Hw6-settings";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F570E41203BEA1D00F3911C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZYDG2YZQM;
+				INFOPLIST_FILE = HelgesonJerdon_Hw6_settingsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "whatDoesThisDo.HelgesonJerdon-Hw6-settingsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelgesonJerdon_Hw6_settings.app/HelgesonJerdon_Hw6_settings";
+			};
+			name = Debug;
+		};
+		7F570E42203BEA1D00F3911C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZYDG2YZQM;
+				INFOPLIST_FILE = HelgesonJerdon_Hw6_settingsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "whatDoesThisDo.HelgesonJerdon-Hw6-settingsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelgesonJerdon_Hw6_settings.app/HelgesonJerdon_Hw6_settings";
+			};
+			name = Release;
+		};
+		7F570E44203BEA1D00F3911C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZYDG2YZQM;
+				INFOPLIST_FILE = HelgesonJerdon_Hw6_settingsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "whatDoesThisDo.HelgesonJerdon-Hw6-settingsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelgesonJerdon_Hw6_settings;
+			};
+			name = Debug;
+		};
+		7F570E45203BEA1D00F3911C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZYDG2YZQM;
+				INFOPLIST_FILE = HelgesonJerdon_Hw6_settingsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "whatDoesThisDo.HelgesonJerdon-Hw6-settingsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelgesonJerdon_Hw6_settings;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F570E10203BEA1D00F3911C /* Build configuration list for PBXProject "HelgesonJerdon_Hw6_settings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F570E3B203BEA1D00F3911C /* Debug */,
+				7F570E3C203BEA1D00F3911C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F570E3D203BEA1D00F3911C /* Build configuration list for PBXNativeTarget "HelgesonJerdon_Hw6_settings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F570E3E203BEA1D00F3911C /* Debug */,
+				7F570E3F203BEA1D00F3911C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F570E40203BEA1D00F3911C /* Build configuration list for PBXNativeTarget "HelgesonJerdon_Hw6_settingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F570E41203BEA1D00F3911C /* Debug */,
+				7F570E42203BEA1D00F3911C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F570E43203BEA1D00F3911C /* Build configuration list for PBXNativeTarget "HelgesonJerdon_Hw6_settingsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F570E44203BEA1D00F3911C /* Debug */,
+				7F570E45203BEA1D00F3911C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F570E0D203BEA1D00F3911C /* Project object */;
+}

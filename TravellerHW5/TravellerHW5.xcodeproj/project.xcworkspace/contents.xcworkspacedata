@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../TableViewCell.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Moscow.jpg">
+   </FileRef>
+   <FileRef
+      location = "group:Pullman.jpg">
+   </FileRef>
+   <FileRef
+      location = "group:seattle.jpg">
+   </FileRef>
+   <FileRef
+      location = "self:TravellerHW5.xcodeproj">
+   </FileRef>
+</Workspace>
