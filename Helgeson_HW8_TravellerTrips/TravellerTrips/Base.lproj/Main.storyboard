@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TravellerTrips" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Traveller" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4cd-gv-UYY">
+                                <rect key="frame" x="158" y="20" width="59" height="17"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Destination:" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h72-dR-CXo">
+                                <rect key="frame" x="16" y="50" width="82" height="17"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Start Date:" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aGB-na-552">
+                                <rect key="frame" x="16" y="74" width="74" height="17"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="End Date:" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LCb-S3-jCS">
+                                <rect key="frame" x="16" y="96" width="67" height="17"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="faE-WA-vXE">
+                                <rect key="frame" x="16" y="236" width="343" height="196"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="196" id="IGm-qN-UtP"/>
+                                    <constraint firstAttribute="width" constant="343" id="LOA-Bo-MrL"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xnp-yh-680">
+                                <rect key="frame" x="172" y="617" width="32" height="30"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="0.93059724569320679" green="0.27452105283737183" blue="0.18561512231826782" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Next:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZLx-Aj-tlu"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SilverStar.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="4p6-Gh-7Vu">
+                                <rect key="frame" x="171" y="439" width="32" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="32" id="L7D-nb-BLi"/>
+                                    <constraint firstAttribute="height" constant="32" id="oF8-QL-KT6"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SilverStar.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="75D-xx-0Dz">
+                                <rect key="frame" x="131" y="439" width="32" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="GR7-Aw-tDM"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="32" id="UU6-fM-Wmk"/>
+                                    <constraint firstAttribute="width" constant="32" id="tcF-XS-yAF"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SilverStar.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="UFy-3E-yzN">
+                                <rect key="frame" x="91" y="439" width="32" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="32" id="G8z-GW-JEn"/>
+                                    <constraint firstAttribute="height" constant="32" id="oE6-yu-FEj"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SilverStar.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="ACt-WZ-hlp">
+                                <rect key="frame" x="211" y="439" width="32" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="32" id="bPM-7l-S7g"/>
+                                    <constraint firstAttribute="height" constant="32" id="htk-S0-XrV"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SilverStar.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Hlh-Pl-nED">
+                                <rect key="frame" x="251" y="439" width="32" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="32" id="gm5-Jn-H1A"/>
+                                    <constraint firstAttribute="height" constant="32" id="sQX-st-DDv"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="32" id="yLl-d7-30t"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="75D-xx-0Dz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="131" id="2Xs-B0-WvH"/>
+                            <constraint firstItem="75D-xx-0Dz" firstAttribute="leading" secondItem="UFy-3E-yzN" secondAttribute="trailing" constant="8" id="59n-W5-xQs"/>
+                            <constraint firstItem="LCb-S3-jCS" firstAttribute="leading" secondItem="VM5-QR-gTk" secondAttribute="leading" priority="750" constant="16" id="9w2-uX-e1S"/>
+                            <constraint firstItem="Xnp-yh-680" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BHy-dK-oMi"/>
+                            <constraint firstItem="75D-xx-0Dz" firstAttribute="top" secondItem="faE-WA-vXE" secondAttribute="bottom" constant="7.5" id="ClG-Ze-gKE"/>
+                            <constraint firstItem="ACt-WZ-hlp" firstAttribute="leading" secondItem="4p6-Gh-7Vu" secondAttribute="trailing" constant="8" id="DLJ-g5-z8X"/>
+                            <constraint firstItem="75D-xx-0Dz" firstAttribute="leading" secondItem="UFy-3E-yzN" secondAttribute="trailing" constant="8" id="DgZ-z7-oLB"/>
+                            <constraint firstItem="VM5-QR-gTk" firstAttribute="bottom" secondItem="Xnp-yh-680" secondAttribute="bottom" constant="20" id="Efd-6a-Fgx"/>
+                            <constraint firstItem="VM5-QR-gTk" firstAttribute="bottom" secondItem="75D-xx-0Dz" secondAttribute="bottom" constant="196" id="GXI-WO-rE2"/>
+                            <constraint firstItem="ACt-WZ-hlp" firstAttribute="leading" secondItem="4p6-Gh-7Vu" secondAttribute="trailing" constant="8" id="Ggc-YR-4CK"/>
+                            <constraint firstItem="VM5-QR-gTk" firstAttribute="trailing" secondItem="Hlh-Pl-nED" secondAttribute="trailing" constant="92" id="Hgw-kI-765"/>
+                            <constraint firstItem="4p6-Gh-7Vu" firstAttribute="leading" secondItem="75D-xx-0Dz" secondAttribute="trailing" constant="8" id="IQV-bt-pm2"/>
+                            <constraint firstItem="75D-xx-0Dz" firstAttribute="leading" secondItem="UFy-3E-yzN" secondAttribute="trailing" constant="8" id="KJG-4d-qmR"/>
+                            <constraint firstItem="aGB-na-552" firstAttribute="top" secondItem="h72-dR-CXo" secondAttribute="bottom" priority="750" constant="7" id="NAV-Ej-1m4"/>
+                            <constraint firstItem="4p6-Gh-7Vu" firstAttribute="top" secondItem="faE-WA-vXE" secondAttribute="bottom" constant="7.5" id="NON-BX-DFB"/>
+                            <constraint firstItem="75D-xx-0Dz" firstAttribute="bottom" secondItem="ACt-WZ-hlp" secondAttribute="bottom" id="QgC-8Y-Wws"/>
+                            <constraint firstItem="4p6-Gh-7Vu" firstAttribute="leading" secondItem="75D-xx-0Dz" secondAttribute="trailing" constant="8" id="St5-JO-kuQ"/>
+                            <constraint firstItem="UFy-3E-yzN" firstAttribute="leading" secondItem="VM5-QR-gTk" secondAttribute="leading" constant="91" id="Top-dl-Q1c"/>
+                            <constraint firstItem="faE-WA-vXE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Zfb-PI-Fr5"/>
+                            <constraint firstItem="75D-xx-0Dz" firstAttribute="leading" secondItem="UFy-3E-yzN" secondAttribute="trailing" constant="8" symbolic="YES" id="aVp-Zk-XUB"/>
+                            <constraint firstItem="Hlh-Pl-nED" firstAttribute="leading" secondItem="ACt-WZ-hlp" secondAttribute="trailing" constant="8" id="bDL-vH-M0H"/>
+                            <constraint firstItem="Hlh-Pl-nED" firstAttribute="leading" secondItem="ACt-WZ-hlp" secondAttribute="trailing" constant="8" id="bZx-M7-7jY"/>
+                            <constraint firstItem="UFy-3E-yzN" firstAttribute="top" secondItem="faE-WA-vXE" secondAttribute="bottom" constant="7.5" id="bdn-Ex-0CY"/>
+                            <constraint firstItem="ACt-WZ-hlp" firstAttribute="top" secondItem="faE-WA-vXE" secondAttribute="bottom" constant="7.5" id="c2E-6S-pND"/>
+                            <constraint firstItem="h72-dR-CXo" firstAttribute="top" secondItem="VM5-QR-gTk" secondAttribute="top" priority="750" constant="30" id="e3c-E7-1KQ"/>
+                            <constraint firstItem="75D-xx-0Dz" firstAttribute="bottom" secondItem="4p6-Gh-7Vu" secondAttribute="bottom" id="eYI-mC-BAl"/>
+                            <constraint firstItem="4cd-gv-UYY" firstAttribute="top" secondItem="VM5-QR-gTk" secondAttribute="top" priority="750" id="fvi-eY-xOf"/>
+                            <constraint firstItem="Hlh-Pl-nED" firstAttribute="top" secondItem="faE-WA-vXE" secondAttribute="bottom" constant="7.5" id="gLy-d2-FAm"/>
+                            <constraint firstItem="LCb-S3-jCS" firstAttribute="top" secondItem="aGB-na-552" secondAttribute="bottom" priority="750" constant="5" id="kLq-El-7rD"/>
+                            <constraint firstItem="75D-xx-0Dz" firstAttribute="bottom" secondItem="Hlh-Pl-nED" secondAttribute="bottom" id="ms4-PD-LTB"/>
+                            <constraint firstItem="aGB-na-552" firstAttribute="leading" secondItem="VM5-QR-gTk" secondAttribute="leading" priority="750" constant="16" id="q9O-nq-N8T"/>
+                            <constraint firstItem="4p6-Gh-7Vu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rep-yz-BxT"/>
+                            <constraint firstItem="4cd-gv-UYY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" priority="750" id="wDB-C7-1TV"/>
+                            <constraint firstItem="h72-dR-CXo" firstAttribute="leading" secondItem="VM5-QR-gTk" secondAttribute="leading" priority="750" constant="16" id="wih-LQ-DHs"/>
+                            <constraint firstItem="75D-xx-0Dz" firstAttribute="bottom" secondItem="UFy-3E-yzN" secondAttribute="bottom" id="wmV-54-YZ9"/>
+                            <constraint firstItem="faE-WA-vXE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xEq-AH-3lM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VM5-QR-gTk"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="taH-yz-bxO" appends="YES" id="Ham-L2-Flu"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="Destination" destination="h72-dR-CXo" id="b9N-1I-3co"/>
+                        <outlet property="EndDate" destination="LCb-S3-jCS" id="Tz6-uG-eqR"/>
+                        <outlet property="ImTheImageDawg" destination="faE-WA-vXE" id="ycn-Rq-KVS"/>
+                        <outlet property="StartDate" destination="aGB-na-552" id="02p-o9-d5O"/>
+                        <outlet property="star1" destination="UFy-3E-yzN" id="QHY-ea-HDD"/>
+                        <outlet property="star2" destination="75D-xx-0Dz" id="EhR-Yi-yGf"/>
+                        <outlet property="star3" destination="4p6-Gh-7Vu" id="6dF-pY-opU"/>
+                        <outlet property="star4" destination="ACt-WZ-hlp" id="nQp-aX-9lC"/>
+                        <outlet property="star5" destination="Hlh-Pl-nED" id="Wak-qb-0qC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="taH-yz-bxO"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SilverStar.jpeg" width="225" height="225"/>
+    </resources>
+</document>
