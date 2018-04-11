@@ -17,8 +17,8 @@
 		7F118AA9207D66390007B9CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F118AA7207D66390007B9CB /* LaunchScreen.storyboard */; };
 		7F118AB4207D66390007B9CB /* HW11AirPlaneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F118AB3207D66390007B9CB /* HW11AirPlaneTests.swift */; };
 		7F118ABF207D66390007B9CB /* HW11AirPlaneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F118ABE207D66390007B9CB /* HW11AirPlaneUITests.swift */; };
-		7F118ACD207D77B30007B9CB /* airplane.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F118ACC207D77B30007B9CB /* airplane.png */; };
-		7F118ACF207DC9C00007B9CB /* MiiSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F118ACE207DC9BF0007B9CB /* MiiSong.mp3 */; };
+		7F118AD1207DE9060007B9CB /* airplane.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F118AD0207DE9050007B9CB /* airplane.png */; };
+		7F118AD4207DE9F60007B9CB /* MiiSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F118AD3207DE9F60007B9CB /* MiiSong.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +55,8 @@
 		7F118ABA207D66390007B9CB /* HW11AirPlaneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW11AirPlaneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F118ABE207D66390007B9CB /* HW11AirPlaneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW11AirPlaneUITests.swift; sourceTree = "<group>"; };
 		7F118AC0207D66390007B9CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7F118ACC207D77B30007B9CB /* airplane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = airplane.png; path = ../../../Downloads/airplane.png; sourceTree = "<group>"; };
-		7F118ACE207DC9BF0007B9CB /* MiiSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = MiiSong.mp3; path = ../../../Downloads/MiiSong.mp3; sourceTree = "<group>"; };
+		7F118AD0207DE9050007B9CB /* airplane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = airplane.png; sourceTree = "<group>"; };
+		7F118AD3207DE9F60007B9CB /* MiiSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MiiSong.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,12 +107,12 @@
 		7F118A97207D66390007B9CB /* HW11AirPlane */ = {
 			isa = PBXGroup;
 			children = (
-				7F118ACC207D77B30007B9CB /* airplane.png */,
+				7F118AD0207DE9050007B9CB /* airplane.png */,
+				7F118AD3207DE9F60007B9CB /* MiiSong.mp3 */,
 				7F118A98207D66390007B9CB /* AppDelegate.swift */,
 				7F118A9A207D66390007B9CB /* GameScene.sks */,
 				7F118A9C207D66390007B9CB /* Actions.sks */,
 				7F118A9E207D66390007B9CB /* GameScene.swift */,
-				7F118ACE207DC9BF0007B9CB /* MiiSong.mp3 */,
 				7F118AA0207D66390007B9CB /* GameViewController.swift */,
 				7F118AA2207D66390007B9CB /* Main.storyboard */,
 				7F118AA5207D66390007B9CB /* Assets.xcassets */,
@@ -250,10 +250,10 @@
 				7F118AA4207D66390007B9CB /* Main.storyboard in Resources */,
 				7F118A9B207D66390007B9CB /* GameScene.sks in Resources */,
 				7F118AA6207D66390007B9CB /* Assets.xcassets in Resources */,
-				7F118ACD207D77B30007B9CB /* airplane.png in Resources */,
+				7F118AD1207DE9060007B9CB /* airplane.png in Resources */,
 				7F118AA9207D66390007B9CB /* LaunchScreen.storyboard in Resources */,
 				7F118A9D207D66390007B9CB /* Actions.sks in Resources */,
-				7F118ACF207DC9C00007B9CB /* MiiSong.mp3 in Resources */,
+				7F118AD4207DE9F60007B9CB /* MiiSong.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
