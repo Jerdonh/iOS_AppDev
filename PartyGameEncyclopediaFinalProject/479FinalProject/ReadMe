@@ -1,0 +1,11 @@
+How to use the app:
+	A good app shouldn't need instructions on how to use it
+	But this one is straight-forward anyways.
+	Click the buttons to navigate the pages.
+	Adjust the settings in the settings tab and save them to deploy them to the rest of the app.
+	Resetting the app data in the settings page will remove all changes you have made to the core data and reset the app to it's initial state.
+	Scroll up and down in the encyclopedia page to view all games.
+	Click on games in the encyclopedia table view controller to view them in detail.
+	In the edit game and new game pages you must scroll to the bottom of the scroll view to save the new game or save your changes to the game.
+	Use the find your game feature to tell which qualifications you have and it will return a set of games catered to your situation.
+	
